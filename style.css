@@ -23,10 +23,6 @@ main {
   background-color: #eee;
 }
 
-.step-box:last-child {
-  margin-right: 0;
-}
-
 .step-img1 {
   height: 150px;
   background-image: url(img/flow01.png);
@@ -66,7 +62,40 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-  .social i {
-    color: red;
+  header {
+    width: 100%;
+  }
+  
+  main {
+    width: 100%;
+    margin: 50px 0;
+    display: block;
+  }
+
+  .step-box {
+    width: 90%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .step-img1 {
+    height: 150px;
+    background-size: cover;
+    background-position: bottom center;
+  }
+
+  .step-img2 {
+    height: 150px;
+    background-size: cover;
+    background-position: bottom center;
+  }
+
+  .step-img3 {
+    height: 150px;
+    background-size: cover;
+    background-position: bottom center;
   }
 }
+
+
